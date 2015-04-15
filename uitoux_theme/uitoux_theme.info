@@ -63,11 +63,11 @@ settings[alpha_css][commerce_kickstart_style.css] = 'commerce_kickstart_style.cs
 
 ; OPTIONAL LIBRARIES
 
-libraries[commerce_kickstart_theme_custom][name] = Commerce kickstart theme JS
-libraries[commerce_kickstart_theme_custom][description] = This file holds all the custom JS.
-libraries[commerce_kickstart_theme_custom][js][0][file] = commerce_kickstart_theme_custom.js
-libraries[commerce_kickstart_theme_custom][js][0][options][weight] = 15
-settings[alpha_libraries][commerce_kickstart_theme_custom] = 'commerce_kickstart_theme_custom'
+libraries[uitoux_theme_custom][name] = UI To UX theme JS
+libraries[uitoux_theme_custom][description] = This file holds all the custom JS.
+libraries[uitoux_theme_custom][js][0][file] = uitoux_theme_custom.js
+libraries[uitoux_theme_custom][js][0][options][weight] = 15
+settings[alpha_libraries][uitoux_theme_custom] = 'uitoux_theme_custom'
 
 ; THEME SETTINGS (DEFAULTS)
 
