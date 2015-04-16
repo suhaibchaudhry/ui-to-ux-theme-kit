@@ -1,6 +1,6 @@
+/* Include Default Variables & Mixins */
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
-/* Include Default Variables & Mixins */
 /**
 * Navigation
 */
@@ -28,3 +28,5 @@
 .block-shipping-discount {
   left: auto;
   right: -50px; }
+
+/*# sourceMappingURL=uitoux-theme-alpha-default-rtl.css.map */

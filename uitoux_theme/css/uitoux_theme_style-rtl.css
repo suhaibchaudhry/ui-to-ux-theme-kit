@@ -1,6 +1,6 @@
+/* Include Default Variables & Mixins */
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
-/* Include Default Variables & Mixins */
 /* End Variables & Mixins */
 /* User menu */
 .block-menu-user-menu .content ul.menu li.first {
@@ -86,3 +86,5 @@
   padding-right: 20px; }
   .node-teaser .links.node-links .links .comment-comments a span {
     float: right; }
+
+/*# sourceMappingURL=uitoux_theme_style-rtl.css.map */
