@@ -69,6 +69,12 @@ libraries[uitoux_theme_custom][js][0][file] = uitoux_theme_custom.js
 libraries[uitoux_theme_custom][js][0][options][weight] = 15
 settings[alpha_libraries][uitoux_theme_custom] = 'uitoux_theme_custom'
 
+libraries[jquery_browser][name] = jQuery Browser Plugin
+libraries[jquery_browser][description] = jQuery browser plugin to allow $.browser with jQuery 1.9.1+.
+libraries[jquery_browser][js][0][file] = jquery.browser.js
+libraries[jquery_browser][js][0][options][weight] = -20
+settings[alpha_libraries][jquery_browser] = 'jquery_browser'
+
 ; UPGRADE LIBRARIES
 
 libraries[omega_formalize][name] = Formalize
