@@ -69,12 +69,6 @@ libraries[uitoux_theme_custom][js][0][file] = uitoux_theme_custom.js
 libraries[uitoux_theme_custom][js][0][options][weight] = 15
 settings[alpha_libraries][uitoux_theme_custom] = 'uitoux_theme_custom'
 
-libraries[jquery_mousewheel][name] = jQuery Mousewheel Library
-libraries[jquery_mousewheel][description] = This library adds supports for jQuery Mousewheel plugin.
-libraries[jquery_mousewheel][js][0][file] = jquery.mousewheel.js
-libraries[jquery_mousewheel][js][0][options][weight] = 5
-settings[alpha_libraries][jquery_mousewheel] = 'jquery_mousewheel'
-
 ; UPGRADE LIBRARIES
 
 libraries[omega_formalize][name] = Formalize
