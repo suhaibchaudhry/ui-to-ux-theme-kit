@@ -38,3 +38,14 @@ function uitoux_theme_preprocess_node(&$variables) {
     $variables['submitted'] = t('By') . ' ' . $variables['name'] . ', ' . $variables['date'];
   }
 }
+
+function uitoux_theme_js_alter(&$js) {
+  foreach($js as $key => $lib) {
+  	if(strpos($key, 'jquery.formalize.js') !== FALSE) {
+		unset($js[$key]);
+		$path = drupal_get_path('theme', 'uitoux_theme').'/js/jquery.formalize.js';
+		$js[$path] = $lib;
+		$js[$path]['data'] = $path;
+	}
+  }
+}
