@@ -75,6 +75,15 @@ libraries[jquery_mousewheel][js][0][file] = jquery.mousewheel.js
 libraries[jquery_mousewheel][js][0][options][weight] = 5
 settings[alpha_libraries][jquery_mousewheel] = 'jquery_mousewheel'
 
+; UPGRADE LIBRARIES
+
+libraries[omega_formalize][name] = Formalize
+libraries[omega_formalize][description] = Formalize is a framework by <a href="http://formalize.me/" title="Formalize">Nathan Smith</a> for neat looking cross-browser forms with extended functionality.
+libraries[omega_formalize][js][0][file] = jquery.formalize.js
+libraries[omega_formalize][js][0][options][weight] = -20
+libraries[omega_formalize][css][0][file] = formalize.css
+libraries[omega_formalize][css][0][options][weight] = -20
+
 ; THEME SETTINGS (DEFAULTS)
 
 settings[alpha_grid] = 'alpha_default'
